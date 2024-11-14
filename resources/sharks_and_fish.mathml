@@ -1,0 +1,59 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:cellml="http://www.cellml.org/cellml/2.0#">
+<apply>
+  <eq/>
+  <ci>c</ci>
+  <apply>
+    <plus/>
+    <ci>a</ci>
+    <cn cellml:units="per_month">2.0</cn>
+  </apply>
+</apply>
+<apply>
+  <eq/>
+  <apply>
+    <diff/>
+    <bvar>
+      <ci>time</ci>
+    </bvar>
+    <ci>y_s</ci>
+  </apply>
+  <apply>
+    <plus/>
+    <apply>
+      <times/>
+      <ci>a</ci>
+      <ci>y_s</ci>
+    </apply>
+    <apply>
+      <times/>
+      <ci>b</ci>
+      <ci>y_s</ci>
+      <ci>y_f</ci>
+    </apply>
+  </apply>
+</apply>
+<apply>
+  <eq/>
+  <apply>
+    <diff/>
+    <bvar>
+      <ci>time</ci>
+    </bvar>
+    <ci>y_f</ci>
+  </apply>
+  <apply>
+    <plus/>
+    <apply>
+      <times/>
+      <ci>c</ci>
+      <ci>y_f</ci>
+    </apply>
+    <apply>
+      <times/>
+      <ci>d</ci>
+      <ci>y_s</ci>
+      <ci>y_f</ci>
+    </apply>
+  </apply>
+</apply>
+</math>
